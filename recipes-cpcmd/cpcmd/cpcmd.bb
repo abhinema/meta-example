@@ -16,7 +16,7 @@ SRC_URI = "git://github.com/abhinema/linux_cp_command;protocol=https"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "275469305717331f5551b9e76ea42ab59a3395d2"
+SRCREV = "cdb0093266b40b6e9ab33534eb5ca6f45fa93d53"
 
 S = "${WORKDIR}/git"
 
