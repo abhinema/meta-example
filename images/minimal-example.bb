@@ -1,6 +1,6 @@
 SUMMARY = "A Meta Example image"
 
-require core-image-minimal.bb
+require ../../meta/recipes-extended/images/core-image-minimal.bb
 
 TEST_APPS = " \
     cpcmd \
