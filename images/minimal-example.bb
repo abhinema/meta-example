@@ -1,6 +1,6 @@
 SUMMARY = "A Meta Example image"
 
-inherit core-image
+require core-image-minimal.bb
 
 TEST_APPS = " \
     cpcmd \
