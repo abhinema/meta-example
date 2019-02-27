@@ -4,7 +4,7 @@ require core-image-minimal.bb
 
 #
 PACKAGE_CLASSES = "package_ipk"
-IMAGE_FSTYPES = "hddimg"
+IMAGE_FSTYPES = "live iso"
 FEED_DEPLOYDIR_BASE_URI = "http://10.40.20.70:9999"
 #
 POKY_DEFAULT_DISTRO_FEATURES_append = " systemd"
