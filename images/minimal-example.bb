@@ -1,6 +1,6 @@
 SUMMARY = "A Meta Example image"
 
-require core-image-minimal.bb
+inherit core-image-minimal
 
 TEST_APPS = " \
     cpcmd \
@@ -10,4 +10,4 @@ IMAGE_INSTALL += " \
     ${TEST_APPS} \
 "
 
-export IMAGE_BASENAME = "cpcmd-image"
+export IMAGE_BASENAME = "minimal-example"
