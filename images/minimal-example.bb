@@ -1,6 +1,6 @@
 SUMMARY = "A Meta Example image"
 
-require ${LAYERDIR}/images/core-image-minimal.bb
+require core-image-minimal.bb
 
 TEST_APPS = " \
     cpcmd \
