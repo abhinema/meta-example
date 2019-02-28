@@ -2,7 +2,7 @@ SUMMARY = "A Meta Example image"
 
 require core-image-minimal.bb
 
-IMAGE_TYPE_live = "${@build_live(d)}"
+IMAGE_TYPE_live = "image-live"
 
 inherit ${IMAGE_TYPE_live}
 
