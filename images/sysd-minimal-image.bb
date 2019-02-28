@@ -32,7 +32,7 @@ TEST_APPS = " \
 
 IMAGE_INSTALL += " \
     ${TEST_APPS} \
-    dpkg \
+    opkg \
 "
 
 export IMAGE_BASENAME = "sysd-minimal-image"
