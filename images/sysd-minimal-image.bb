@@ -8,8 +8,9 @@ inherit ${IMAGE_TYPE_live}
 
 #
 PACKAGE_CLASSES = "package_ipk"
-#IMAGE_FSTYPES = "iso"
-IMAGE_TYPE_live="iso"
+IMAGE_FSTYPES = "live"
+NOISO = "0"
+#IMAGE_TYPE_live="iso"
 FEED_DEPLOYDIR_BASE_URI = "http://10.40.20.70:9999"
 #
 POKY_DEFAULT_DISTRO_FEATURES_append = " systemd"
