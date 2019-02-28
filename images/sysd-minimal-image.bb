@@ -1,6 +1,7 @@
 SUMMARY = "A Meta Example image"
 
-inherit package
+inherit package_ipk
+inherit package_rpm
 require core-image-minimal.bb
 
 IMAGE_TYPE_live = "image-live"
