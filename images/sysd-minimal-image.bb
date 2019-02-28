@@ -8,6 +8,7 @@ inherit ${IMAGE_TYPE_live}
 
 #
 PACKAGE_CLASSES ?= "package_ipk"
+EXTRA_IMAGE_FEATURES += "package-management"
 IMAGE_FSTYPES = "live"
 NOISO = "0"
 #IMAGE_TYPE_live="iso"
