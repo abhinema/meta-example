@@ -11,6 +11,8 @@ inherit ${IMAGE_TYPE_live}
 inherit package
 inherit package_ipk
 inherit package_rpm
+inherit packagedata
+inherit chrpath
 
 #
 PACKAGE_CLASSES_remove = "package_rpm"
