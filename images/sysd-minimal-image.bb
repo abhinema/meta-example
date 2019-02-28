@@ -17,7 +17,7 @@ inherit chrpath
 #
 PACKAGE_CLASSES_remove = "package_rpm"
 PACKAGE_CLASSES_append = "package_ipk"
-EXTRA_IMAGE_FEATURES += "package-management"
+IMAGE_FEATURES += "package-management"
 IMAGE_FSTYPES = "live"
 NOISO = "0"
 #IMAGE_TYPE_live="iso"
