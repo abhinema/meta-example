@@ -7,7 +7,7 @@ IMAGE_TYPE_live = "image-live"
 inherit ${IMAGE_TYPE_live}
 
 #
-PACKAGE_CLASSES = "package_ipk"
+PACKAGE_CLASSES += " package_ipk"
 IMAGE_FSTYPES = "live"
 NOISO = "0"
 #IMAGE_TYPE_live="iso"
