@@ -18,8 +18,8 @@ inherit chrpath
 #PACKAGE_CLASSES_remove = "package_rpm"
 PACKAGE_CLASSES ?= "package_ipk"
 IMAGE_FEATURES += "package-management"
-IMAGE_FSTYPES = "live"
-NOISO = "0"
+#IMAGE_FSTYPES = "live"
+#NOISO = "0"
 #IMAGE_TYPE_live="iso"
 FEED_DEPLOYDIR_BASE_URI = "http://192.168.0.107:9999"
 #
