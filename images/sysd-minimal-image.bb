@@ -21,7 +21,7 @@ IMAGE_FEATURES += "package-management"
 #IMAGE_FSTYPES = "live"
 #NOISO = "0"
 #IMAGE_TYPE_live="iso"
-FEED_DEPLOYDIR_BASE_URI = "http://192.168.0.107:9999"
+FEED_DEPLOYDIR_BASE_URI = "http://192.168.0.107:9999/ http://<192.168.0.107>:9999/"
 #
 POKY_DEFAULT_DISTRO_FEATURES_append = " systemd"
 DISTRO_FEATURES_append = " systemd"
