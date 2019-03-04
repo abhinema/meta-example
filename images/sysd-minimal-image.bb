@@ -18,7 +18,7 @@ inherit chrpath
 #PACKAGE_CLASSES_remove = "package_rpm"
 PACKAGE_CLASSES ?= "package_ipk"
 IMAGE_FEATURES += "package-management"
-IMAGE_FSTYPES = "wic.vmdk"
+IMAGE_FSTYPES += "wic.vmdk"
 #IMAGE_FSTYPES = "live"
 #NOISO = "0"
 #IMAGE_TYPE_live="iso"
