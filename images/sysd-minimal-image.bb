@@ -26,15 +26,15 @@ IMAGE_FEATURES += "package-management"
 #IMAGE_TYPE_live="iso"
 FEED_DEPLOYDIR_BASE_URI = "http://10.40.20.74:9999/ http://<10.40.20.74>:9999/"
 #
-POKY_DEFAULT_DISTRO_FEATURES_append = " systemd"
-DISTRO_FEATURES_append = " systemd"
+#POKY_DEFAULT_DISTRO_FEATURES_append = " systemd"
+#DISTRO_FEATURES_append = " systemd"
 
-PREFERRED_PROVIDER_udev ?= "systemd"
-PREFERRED_PROVIDER_udev-utils ?= "systemd"
-VIRTUAL-RUNTIME_init_manager = "systemd"
-VIRTUAL-RUNTIME_initscripts = "systemd-compat-units"
+#PREFERRED_PROVIDER_udev ?= "systemd"
+#PREFERRED_PROVIDER_udev-utils ?= "systemd"
+#VIRTUAL-RUNTIME_init_manager = "systemd"
+#VIRTUAL-RUNTIME_initscripts = "systemd-compat-units"
 
-DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
+#DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
 
 
 TEST_APPS = " \
