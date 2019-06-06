@@ -3,8 +3,9 @@ SUMMARY = "A Meta Example image"
 #require core-image-minimal.bb
 #require angstrom-lxde-image.bb
 
-#require angstrom-qt-x11-image.bb
-require sysd-minimal-image.bb
+require angstrom-qt-x11-image.bb
+
+FEED_DEPLOYDIR_BASE_URI = "http://10.40.20.74:9999/ http://<10.40.20.74>:9999/"
 
 TEST_APPS = " \
     cpcmd \
@@ -12,6 +13,7 @@ TEST_APPS = " \
 
 IMAGE_INSTALL += " \
     ${TEST_APPS} \
+    opkg
 "
 
 export IMAGE_BASENAME = "minimal-example"
