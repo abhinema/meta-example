@@ -12,8 +12,7 @@ TEST_APPS = " \
 "
 
 IMAGE_INSTALL += " \
-    ${TEST_APPS} \
-    opkg
+    ${TEST_APPS}
 "
 
 export IMAGE_BASENAME = "minimal-example"
