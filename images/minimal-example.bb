@@ -1,6 +1,7 @@
 SUMMARY = "A Meta Example image"
 
-require core-image-minimal.bb
+#require core-image-minimal.bb
+require angstrom-lxde-image
 
 TEST_APPS = " \
     cpcmd \
