@@ -2,7 +2,8 @@ SUMMARY = "A Meta Example image"
 
 
 
-require core-image-minimal.bb
+#require core-image-minimal.bb
+require angstrom-lxde-image.bb
 
 IMAGE_TYPE_live = "image-live"
 
