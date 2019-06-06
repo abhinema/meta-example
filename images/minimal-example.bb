@@ -11,7 +11,7 @@ TEST_APPS = " \
     cpcmd \
 "
 
-IMAGE_INSTALL += " \
+IMAGE_INSTALL_append = " \
     ${TEST_APPS}
 "
 
