@@ -3,7 +3,7 @@ SUMMARY = "A Meta Example image"
 
 
 #require core-image-minimal.bb
-require angstrom-lxde-image.bb
+require angstrom-qt-x11-image.bb
 
 IMAGE_TYPE_live = "image-live"
 
