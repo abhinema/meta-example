@@ -11,8 +11,6 @@ TEST_APPS = " \
     cpcmd \
 "
 
-IMAGE_INSTALL_append = " \
-    ${TEST_APPS}
-"
+IMAGE_INSTALL_append = "cpcmd"
 
 export IMAGE_BASENAME = "minimal-example"
