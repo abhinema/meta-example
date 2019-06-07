@@ -14,6 +14,6 @@ TEST_APPS = " \
     cpcmd \
 "
 
-IMAGE_INSTALL_append = "cpcmd"
+IMAGE_INSTALL_append = "cpcmd test-feed-configs"
 
 export IMAGE_BASENAME = "minimal-example"
