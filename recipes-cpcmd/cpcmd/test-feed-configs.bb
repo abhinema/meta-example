@@ -8,6 +8,7 @@ PACKAGE_ARCH = "${MACHINE_ARCH}"
 FEED_BASEPATH ?= "unstable/feed/"
 
 IWMMXT_FEED = "${@bb.utils.contains('MACHINE_FEATURES', 'iwmmxt', 'iwmmxt', '',d)}"
+ITS_URI ?= "10.40.20.74:9999"
 
 do_compile() {
 	mkdir -p ${S}/${sysconfdir}/opkg
